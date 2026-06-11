@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "MakeThings";
+    src: url("./fonts/Make%20Things%20Sans.otf") format("opentype");
+}
 *{
     box-sizing: border-box;
 }
@@ -64,10 +68,7 @@ button{
     font-size: 35px;
     padding-right: 20px;
 }
-@font-face {
-    font-family: "MakeThings";
-    src: url("./fonts/Make%20Things%20Sans.otf") format("opentype");
-}
+
 .AC{
     background-color: #FF3D6E;
 }
