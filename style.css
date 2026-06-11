@@ -14,17 +14,17 @@ body{
 }
 .calc_body{
     display: block;
-    background-color: white;
-    height: 505px;
+    background-color: #29292b;
+    height: 515px;
     width: 485px;
     border: 5px solid black;
-    border-radius: 30px;
+    border-radius: 40px;
 }
 .display_bg{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0px;
+    margin-top: 5px;
     height: 100px;
 }
 .keypad_bg{
@@ -46,12 +46,40 @@ button{
     border: 2px solid black;
     height: 80px;
     width: 100px;
+    font-family: "MakeThings";
+    font-size: 35px;
 }
 .display{
-    width: 450px;
-    height: 80px;
+    width: 455px;
+    height: 90px;
     border: 2px solid black;
-    border-radius: 30px;
+    border-radius: 40px;
     margin-top: 10px;
+    background-color: #3b3e6d;
+}
+@font-face {
+    font-family: "MakeThings";
+    src: url("../fonts/Make%20Things%20Sans.otf") format("opentype");
+}
+.AC{
+    background-color: #FF3D6E;
+}
+.multiplication{
+    background-color: #FF4D94;
+}
+.dividing{
+    background-color: #FF7A59;
+}
+.addition{
+    background-color: #12C7C0;
+}
+.minus{
+    background-color: #2196F3;
+}
+.equal{
+    background-color: #FFB52E;
+}
+.nos{
+    background-color: #454174;
 }
    
